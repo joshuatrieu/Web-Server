@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Made 05-31-2018-->
+<html>
+<head>
+  <title>Tic Tac Toe!</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ticTacToe/ttt.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body style="margin-top: 20px;" onload="startGame();">
+  <section class="hero">
+    <div class="center container">
+      <h1 class="title">Tic Tac Toe</h1>
+      <div style="text-align: center;"id="message"></div>
+    </div>
+  </section>
+  <section class="section">
+    <table class="gameTable">
+      <tr>
+        <td id="s1" class="square" onclick="nextMove(this);"></td>
+        <td id="s2" class="square" onclick="nextMove(this);"></td>
+        <td id="s3" class="square" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s4" class="square" onclick="nextMove(this);"></td>
+        <td id="s5" class="square" onclick="nextMove(this);"></td>
+        <td id="s6" class="square" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s7" class="square" onclick="nextMove(this);"></td>
+        <td id="s8" class="square" onclick="nextMove(this);"></td>
+        <td id="s9" class="square" onclick="nextMove(this);"></td>
+      </tr>
+    </table>
+    <div class="center">
+      <a href="javascript:startGame();"><button>New Game</button></a>
+    </div>
+    <div class="center">
+      <h1>Learned this from <a href="https://www.youtube.com/playlist?list=PLJnkyVAO-LM6IgtfN83wQ-dj5Oj1mNETN" target="_blank">YouTube</a>.</h1>
+    </div>
+    <script src="ticTacToe/ttt.js"></script>
+  </section>
+</body>
+</html>

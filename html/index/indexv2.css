@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  background-color: #000;
+}
+
+.center { /*this is to center stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoticon {
+    white-space: pre;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}

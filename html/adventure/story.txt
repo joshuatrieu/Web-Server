@@ -1,0 +1,23 @@
+1. Your name and your friend's name
+
+2. First decision. Bicycle or boat. Only one bicycle. Boat will take you and friend. boat leads to large lake.
+  bicycle: leads to lonely life, but survive
+
+  boat leads to large lake with friend. start searching for supplies and find:
+    rubber chicken
+      75& but 2 damage
+    axe
+      50% but 4 damage
+    pool noodle
+      100% but 1 damage
+
+    Math.random()
+
+  zombie appears from underneath tarp. Which weapon do you choose?
+    zombie does 2 damage per turn. zombie has 10 hp, friend and you have combined 10 hp as well.
+
+  You kill the zombie.
+    celebrate with friend. and live happily ever after.
+
+  Zombie kills both you and your friend.
+    you hug your friend as both you and the friend get eaten
