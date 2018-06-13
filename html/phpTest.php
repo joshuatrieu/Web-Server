@@ -10,8 +10,8 @@
 </head>
 <body>
   <?php
-  echo "Hello World! "; 
-  echo "What is the best way to learn PHP?";
+  echo "Hello World! ";
+  echo "What is the best way to learn PHP? This text to test Git.";
   ?>
 </body>
 </html>
