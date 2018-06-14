@@ -11,7 +11,7 @@
 <body>
   <?php
   echo "Hello World! ";
-  echo "What is the best way to learn PHP? This text to test Git.";
+  echo "What is the best way to learn PHP? This text is to test Git.";
   ?>
 </body>
 </html>
