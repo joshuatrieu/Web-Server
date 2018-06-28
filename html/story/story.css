@@ -1,0 +1,11 @@
+body, html {
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+
+.partOne {
+  width: 80%;
+  height: auto;
+}
