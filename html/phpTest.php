@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +8,10 @@
   <link rel="stylesheet" href="phpTest/phpTest.css">
 </head>
 <body>
-  <?php
-  echo "Hello World! ";
-  echo "What is the best way to learn PHP? This text is to test Git.";
-  ?>
+  <form action="phpTest/test1.php" method="get">
+    <h1>Enter your name</h1>
+    <input type="text">
+    <input type="submit">
+  </form>
 </body>
 </html>
